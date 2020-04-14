@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://zeplin.io">
+  <a href="https://slides.zeplin.xyz">
     <img alt="Zeplin to Google Slides" src="/logo.png" width="256" />
   </a>
 </p>
