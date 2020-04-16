@@ -2,9 +2,10 @@ import http, { handleResponse } from "../utils/http";
 import { APP_URL, ZEPLIN_CLIENT_ID, ZEPLIN_CLIENT_SECRET } from "../constants";
 
 const ZEPLIN_API_URL = "https://api.zeplin.dev/v1";
+const REDIRECT_URL = `${APP_URL}/connect`;
 
 export function authorize() {
-  window.location = `${ZEPLIN_API_URL}/oauth/authorize?client_id=${ZEPLIN_CLIENT_ID}&redirect_uri=${APP_URL}&response_type=code`;
+  window.location = `${ZEPLIN_API_URL}/oauth/authorize?client_id=${ZEPLIN_CLIENT_ID}&redirect_uri=${REDIRECT_URL}&response_type=code`;
 }
 
 export function fetchAccessToken(code) {
@@ -12,7 +13,7 @@ export function fetchAccessToken(code) {
     grant_type: "authorization_code",
     client_id: ZEPLIN_CLIENT_ID,
     client_secret: ZEPLIN_CLIENT_SECRET,
-    redirect_uri: APP_URL,
+    redirect_uri: REDIRECT_URL,
     code,
   };
 

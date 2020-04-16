@@ -24,7 +24,7 @@ export function handleResponse(response) {
     ) {
       localStorage.removeItem(ZEPLIN_TOKEN_STORAGE_KEY);
 
-      window.location = "/";
+      window.location = "/connect";
     }
 
     // TODO: show modal for errors

@@ -6,6 +6,8 @@ import { StoreProvider } from "./providers/StoreProvider";
 
 import Connect from "./pages/Connect";
 import Create from "./pages/Create";
+import Home from "./pages/Home";
+
 import PrivateRoute from "./components/PrivateRoute";
 
 function App() {
@@ -14,7 +16,8 @@ function App() {
       <StoreProvider>
         <Router>
           <Switch>
-            <Route exact path="/" children={<Connect />} />
+            <Route exact path="/" children={<Home />} />
+            <Route exact path="/connect" children={<Connect />} />
             <PrivateRoute exact path="/create" children={<Create />} />
           </Switch>
         </Router>

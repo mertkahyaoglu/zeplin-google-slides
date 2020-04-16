@@ -4,9 +4,9 @@ import { Container } from "@material-ui/core";
 
 import Header from "../components/Header";
 
-function Main({ children }) {
+function Main({ children, maxWidth = "sm" }) {
   return (
-    <Container maxWidth="sm">
+    <Container maxWidth={maxWidth}>
       <Header />
 
       {children}
