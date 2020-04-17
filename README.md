@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://slides.zeplin.xyz">
-    <img alt="Zeplin to Google Slides" src="/logo.png" width="256" />
+    <img alt="Zeplin Slides" src="/logo.png" width="256" />
   </a>
 </p>
 <h1 align="center">
-  Zeplin to Google Slides
+  Zeplin Slides
 </h1>
 
 <h3 align="center">

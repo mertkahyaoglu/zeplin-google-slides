@@ -31,7 +31,7 @@ export default function Header() {
       </Box>
 
       <IntegrationImage />
-      <h2>Zeplin to Google Slides</h2>
+      <h1>Zeplin Slides</h1>
       <p>Create presentations in Google Slides from Zeplin projects</p>
     </Box>
   );

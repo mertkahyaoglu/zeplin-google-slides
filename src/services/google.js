@@ -260,7 +260,7 @@ function generateLastSlideRequests({
     {
       insertText: {
         objectId: textId,
-        text: "Crafted with Zeplin to Google Slides",
+        text: "Crafted with Zeplin Slides",
       },
     },
     {
