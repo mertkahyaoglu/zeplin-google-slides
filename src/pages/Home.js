@@ -1,10 +1,11 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 
-import { Typography, Box, Button, Link } from "@material-ui/core";
+import { Typography, Box, Button } from "@material-ui/core";
 
 import Main from "../layouts/Main";
 import HomeCard from "../components/HomeCard";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const history = useHistory();
@@ -23,9 +24,8 @@ export default function Home() {
           align="center"
           gutterBottom
         >
-          <strong>Zeplin Slides</strong> allows you to create Google
-          Slide presentations from screens of your Zeplin projects in 3 simple
-          steps.
+          <strong>Zeplin Slides</strong> allows you to create Google Slide
+          presentations from screens of your Zeplin projects in 3 simple steps.
         </Typography>
 
         <HomeCard
@@ -64,6 +64,7 @@ export default function Home() {
           </Button>
         </Box>
       </Box>
+      <Footer />
     </Main>
   );
 }
