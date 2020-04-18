@@ -277,7 +277,7 @@ function generateLastSlideRequests({
         textRange: {
           type: "FIXED_RANGE",
           startIndex: 13,
-          endIndex: 36,
+          endIndex: 27,
         },
         style: {
           link: {
