@@ -31,7 +31,7 @@ function ZeplinConnectCard() {
 
           setAuthenticating(false);
 
-          history.replace("/connect");
+          history.replace("/");
         }
       } catch {
         // noop

@@ -11,7 +11,7 @@ export default function Home() {
   const history = useHistory();
 
   const onClick = () => {
-    history.push("/connect");
+    history.push("/");
   };
 
   return (

@@ -40,7 +40,7 @@ export default function Create() {
   const onBack = (e) => {
     e.preventDefault();
 
-    history.replace("/connect");
+    history.replace("/");
   };
 
   const onCreate = async () => {

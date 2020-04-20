@@ -16,8 +16,8 @@ function App() {
       <StoreProvider>
         <Router>
           <Switch>
-            <Route exact path="/" children={<Home />} />
-            <Route exact path="/connect" children={<Connect />} />
+            <Route exact path="/home" children={<Home />} />
+            <Route exact path="/" children={<Connect />} />
             <PrivateRoute exact path="/create" children={<Create />} />
           </Switch>
         </Router>

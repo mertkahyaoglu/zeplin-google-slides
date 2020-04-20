@@ -10,6 +10,7 @@ export default function HomeCard({ title, image, reverse, disableImageBorder }) 
           display="flex"
           alignItems="center"
           justifyContent="space-around"
+          flexWrap="wrap"
           flexDirection={reverse ? "row-reverse" : "row"}
           padding={4}
         >
