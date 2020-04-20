@@ -26,7 +26,7 @@ export function fetchCurrentUser() {
 }
 
 export async function fetchProjects() {
-  return http.get(`${ZEPLIN_API_URL}/projects`).then(handleResponse);
+  return http.get(`${ZEPLIN_API_URL}/projects?limit=100`).then(handleResponse);
 }
 
 function fetchProjectScreens(pid) {
