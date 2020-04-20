@@ -1,5 +1,5 @@
 {
-  "name": "zeplin-google-slides",
+  "name": "zeplin-slides",
   "version": "1.0.0",
   "scripts": {
     "start": "react-scripts start",
