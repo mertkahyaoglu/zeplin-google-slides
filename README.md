@@ -1,8 +1,3 @@
-<p align="center">
-  <a href="https://slides.zeplin.xyz">
-    <img alt="Zeplin Slides" src="/logo.png" width="256" />
-  </a>
-</p>
 <h1 align="center">
   Zeplin Slides
 </h1>
@@ -10,6 +5,13 @@
 <h3 align="center">
   Create presentations in Google Slides from Zeplin projects
 </h3>
+
+<p align="center">
+  <a href="https://slides.zeplin.xyz">
+    <img alt="Zeplin Slides" src="https://user-images.githubusercontent.com/7414026/137747551-79ae2a71-5c2f-436a-b08a-f77daa087373.gif" height="360"/>
+  </a>
+</p>
+
 
 
 ## Development
